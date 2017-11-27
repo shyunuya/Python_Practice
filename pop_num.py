@@ -9,7 +9,7 @@ print l_list
 
 count = 0
 fnum = []
-while count < 7:
+while count < 6:
     fnum.append(l_list.pop(random.randint(0,len(l_list)-1)))
     count += 1
     print fnum
